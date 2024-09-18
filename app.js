@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.render("home", {
-    nombre: "Fernando Herrera",
+    nombre: "Andres Lopez",
     titulo: "Curso de Node",
   });
 });
@@ -25,14 +25,14 @@ app.get("/hola-mundo", (req, res) => {
 
 app.get("/generic", (req, res) => {
   res.render("generic", {
-    nombre: "Fernando Herrera",
+    nombre: "Andres Lopez",
     titulo: "Curso de Node",
   });
 });
 
 app.get("/elements", (req, res) => {
   res.render("elements", {
-    nombre: "Fernando Herrera",
+    nombre: "Andres Lopez",
     titulo: "Curso de Node",
   });
 });
